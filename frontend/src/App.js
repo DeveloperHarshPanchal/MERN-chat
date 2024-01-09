@@ -20,10 +20,10 @@ function App() {
     const user = useSelector((state) => state.user);
     return (
         <AppContext.Provider value={{ socket, currentRoom, setCurrentRoom, members, setMembers, messages, setMessages, privateMemberMsg, setPrivateMemberMsg, rooms, setRooms, newMessages, setNewMessages }}>
-            <BrowserRouter>
+            <BrowserRouter basename="/MERN-chat">
                 <Navigation />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/MERN-chat" element={<Home />} />
                     {!user && (
                         <>
                             <Route path="/login" element={<Login />} />
