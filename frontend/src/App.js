@@ -23,7 +23,7 @@ function App() {
             <BrowserRouter basename="/MERN-chat">
                 <Navigation />
                 <Routes>
-                    <Route path="/MERN-chat" element={<Home />} />
+                    <Route path="/" element={<Home />} />
                     {!user && (
                         <>
                             <Route path="/login" element={<Login />} />
