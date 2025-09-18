@@ -1,4 +1,4 @@
-💬 MERN Chat Application
+💬 MERN Chat Application..
 
 Your site is live at https://developerharshpanchal.github.io/MERN-chat/ 
 
